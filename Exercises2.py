@@ -1,8 +1,4 @@
 
-#E1
-
-print("Hello, May Brzozka!")
-
 #E2
 #1
 name = input('Enter your name: ')
@@ -31,22 +27,21 @@ average = sum / product
 print("The sum is", sum ,", The product is", product, ", The average is", average)
 
 #5
-talentTopound = 20
-poundTolot = 32
-lotTograms = 13.3
+talent_to_pounds = 20
+pound_to_lots = 32
+lot_to_grams = 13.3
 
-talent = float(input("Enter Talents"))
-pound = float(input("Enter Pounds"))
-lot = float(input("Enter Lots"))
+talents = float(input("Enter talents: "))
+pounds = float(input("Enter pounds: "))
+lots= float(input("Enter lots: "))
 
-totallots = (talent * talentTopound * poundTolot) + (pound * poundTolot) + lot
-totalgrams = totallots * lotTograms
+totallots = (talents * talent_to_pounds * pound_to_lots) + (pounds * pound_to_lots) + lots
+totalgrams = totallots * lot_to_grams
 
 kilograms = int(totalgrams // 1000)
 grams = totalgrams % 1000
 
-print("The total mass in kilograms is", kilograms)
-print("The total mass in grams is", grams)
+print(f"The total mass in kilograms is {kilograms} , the total mass in grams is {grams:.2f}")
 
 
 #6
@@ -64,5 +59,4 @@ code2_num3 = randint(0, 6)
 code2_num4 = randint(0, 6)
 code2 = (f" {code2_num1} {code2_num2} {code2_num3} {code2_num4} ")
 print(code2)
-
 
