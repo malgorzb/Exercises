@@ -78,9 +78,9 @@ class Car:
 car1 = Car("ABC-123", 142)
 car1.print_deets()
 while True:
-    choice=int(input("Enter 1 if you want to accelerate, Enter 2 if not"))
+    choice=int(input("Enter 1 if you want to accelerate, Enter 2 if not: "))
     if choice==1:
-        change=int(input("How much speed do you want to change(Please enter in km/hr)"))
+        change=int(input("How much speed do you want to change(Please enter in km/hr): "))
         car1.accelarate(change)
     elif choice==2:
         break
