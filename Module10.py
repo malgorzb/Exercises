@@ -1,3 +1,4 @@
+'''
 #1
 
 class Elevator:
@@ -65,7 +66,7 @@ class Building:
 building1 = Building(0, 10, 4)
 building1.run_elevator(2, 5)
 
-
+'''
 #3
 
 class Elevator:
